@@ -8,4 +8,8 @@ class BakedGood < ActiveRecord::Base
     self.all.order(price: :desc)
   end
 
+  # def self.create_baked_good
+  #   self.create(name: params[:name],price: params[:price],bakery_id: params[:bakery_id])
+  # end
+
 end
